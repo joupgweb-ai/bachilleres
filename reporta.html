@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reportar Caso</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+
+<body>
+
+<header>
+    <div class="contenedor">
+
+        <h1>TE AYUDAMOS</h1>
+<nav>
+    <a href="index.html">Inicio</a><br>
+    <a href="nosotros.html">Nosotros</a><br>
+    <a href="reporta.html">Reportar</a><br>
+    <a href="videospg.html">Videos</a>
+</nav>
+
+    </div>
+</header>
+
+<section class="presentacion">
+
+    <h2>Enviar un Reporte</h2>
+
+    <p>
+        Si has sido víctima o testigo de un acto de clasismo,
+        puedes reportarlo mediante el siguiente formulario.
+        Tu información será tratada con respeto y confidencialidad.
+    </p>
+
+    <img src="reporte.png" alt="Formulario de reporte" width="350">
+
+</section>
+
+<section>
+
+    <h2>Formulario de Reporte</h2>
+
+    <form action="https://formspree.io/f/mzdqobkn"method="POST">
+
+        <p>
+            <label>Nombre:</label><br>
+            <input type="text" name="nombre" required>
+        </p>
+
+        <p>
+            <label>Correo electrónico:</label><br>
+            <input type="email" name="correo" required>
+        </p>
+
+        <p>
+            <label>Lugar donde ocurrió:</label><br>
+            <input type="text" name="lugar" required>
+        </p>
+
+        <p>
+            <label>Fecha del incidente:</label><br>
+            <input type="date" name="fecha">
+        </p>
+
+        <p>
+            <label>Describe lo sucedido:</label><br>
+<textarea name="descripcion" rows="6" cols="50" required></textarea>
+        </p>
+
+        <input type="submit" value="Enviar Reporte">
+
+    </form>
+
+</section>
+
+<aside>
+
+    <h2>Importante</h2>
+
+    <ul>
+        <li>Proporciona información verdadera.</li>
+        <li>Describe los hechos claramente.</li>
+        <li>Evita lenguaje ofensivo.</li>
+        <li>Tu reporte será confidencial.</li>
+    </ul>
+
+</aside>
+
+<footer>
+
+    <p>JTH © En Contra del Clasismo 2026</p>
+
+</footer>
+<audio id="musica" autoplay loop>
+    <source src="Song1.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    document.getElementById("musica").volume = 0.10;
+</script>
+</body>
+</html>
